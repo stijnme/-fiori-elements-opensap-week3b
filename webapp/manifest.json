@@ -21,7 +21,7 @@
                         "ZUI_FE_BOOKING_000338_O2_VAN",
                         "annotation"
                     ],
-                    "localUri": "localService/metadata.xml",
+                    "localUri": "localService/mainService/metadata.xml",
                     "odataVersion": "2.0"
                 }
             },
@@ -29,7 +29,7 @@
                 "uri": "/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Annotations(TechnicalName='ZUI_FE_BOOKING_000338_O2_VAN',Version='0001')/$value/",
                 "type": "ODataAnnotation",
                 "settings": {
-                    "localUri": "localService/ZUI_FE_BOOKING_000338_O2_VAN.xml"
+                    "localUri": "localService/mainService/ZUI_FE_BOOKING_000338_O2_VAN.xml"
                 }
             },
             "annotation": {
@@ -37,6 +37,15 @@
                 "uri": "annotations/annotation.xml",
                 "settings": {
                     "localUri": "annotations/annotation.xml"
+                }
+            },
+            "zui_fe_travel_000338_o4": {
+                "uri": "/sap/opu/odata4/sap/zui_fe_travel_000338_o4/srvd/sap/zui_fe_travel_000338_o4/0001/",
+                "type": "OData",
+                "settings": {
+                    "odataVersion": "4.0",
+                    "annotations": [],
+                    "localUri": "localService/zui_fe_travel_000338_o4/metadata.xml"
                 }
             }
         },
@@ -93,6 +102,16 @@
                 "preload": true,
                 "settings": {
                     "defaultCountMode": "Inline"
+                }
+            },
+            "zui_fe_travel_000338_o4": {
+                "dataSource": "zui_fe_travel_000338_o4",
+                "preload": true,
+                "settings": {
+                    "synchronizationMode": "None",
+                    "operationMode": "Server",
+                    "autoExpandSelect": true,
+                    "earlyRequests": true
                 }
             }
         },
