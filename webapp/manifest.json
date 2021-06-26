@@ -44,8 +44,17 @@
                 "type": "OData",
                 "settings": {
                     "odataVersion": "4.0",
-                    "annotations": [],
+                    "annotations": [
+                        "annotation0"
+                    ],
                     "localUri": "localService/zui_fe_travel_000338_o4/metadata.xml"
+                }
+            },
+            "annotation0": {
+                "type": "ODataAnnotation",
+                "uri": "annotations/annotation0.xml",
+                "settings": {
+                    "localUri": "annotations/annotation0.xml"
                 }
             }
         },
